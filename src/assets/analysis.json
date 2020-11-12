@@ -1,0 +1,218 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "FocusOn.Base": {
+            "name": "概览",
+            "result": {
+                "new_user": 12,
+                "old_user": 46,
+                "males": 18,
+                "females": 40,
+                "rates": 0.6423,
+                "amount": 753320,
+                "kedanjia": 20360
+            },
+            "config": []
+        },
+        "FocusOn.InstancesRanking": {
+            "name": "品相排名",
+            "result": [
+                {
+                    "name": "鼻部",
+                    "number": 53
+                },
+                {
+                    "name": "领导相",
+                    "number": 14
+                },
+                {
+                    "name": "AI诊断",
+                    "number": 12
+                },
+                {
+                    "name": "皮肤综合治疗",
+                    "number": 10
+                },
+                {
+                    "name": "眼部抗衰",
+                    "number": 8
+                }
+            ],
+            "config": {
+                "top": 5
+            }
+        },
+        "FocusOn.AmountArea": {
+            "name": "消费金额区域",
+            "result": {
+                "1-0-1000": 11,
+                "2-1000-5000": 7,
+                "3-5000-10000": 12,
+                "4-10000-50000": 3,
+                "5-50000-+": 4
+            },
+            "config": {
+                "area_ranks": [
+                    0,
+                    1000,
+                    5000,
+                    10000,
+                    50000,
+                    "+"
+                ]
+            }
+        },
+        "FocusOn.AgeArea": {
+            "name": "年龄区域",
+            "result": {
+                "1-0-20": 2,
+                "2-20-30": 18,
+                "3-30-40": 21,
+                "4-40-+": 6
+            },
+            "config": {
+                "area_ranks": [
+                    0,
+                    20,
+                    30,
+                    40,
+                    "+"
+                ]
+            }
+        },
+        "FocusOn.FeaturesRanking": {
+            "name": "缺陷排名",
+            "result": [
+                {
+                    "name": "鼻头高度",
+                    "total": 57,
+                    "closed": 49,
+                    "rates": 0.8679
+                },
+                {
+                    "name": "额部凹陷",
+                    "total": 27,
+                    "closed": 20,
+                    "rates": 0.7712
+                },
+                {
+                    "name": "额部宽窄",
+                    "total": 24,
+                    "closed": 17,
+                    "rates": 0.69
+                },
+                {
+                    "name": "眼袋",
+                    "total": 20,
+                    "closed": 10,
+                    "rates": 0.5223
+                },
+                {
+                    "name": "鼻根高度",
+                    "total": 19,
+                    "closed": 8,
+                    "rates": 0.4311
+                },
+                {
+                    "name": "眼凸",
+                    "total": 15,
+                    "closed": 7,
+                    "rates": 0.493
+                },
+                {
+                    "name": "颞部宽窄",
+                    "total": 13,
+                    "closed": 09
+                    "rates": 0.6886
+                },
+                {
+                    "name": "黑眼圈",
+                    "total": 11,
+                    "closed": 6,
+                    "rates": 0.5811
+                },
+                {
+                    "name": "内眦间距",
+                    "total": 10,
+                    "closed": 7,
+                    "rates": 0.7311
+                },
+                {
+                    "name": "抬头纹",
+                    "total": 9,
+                    "closed": 7,
+                    "rates": 0.8338
+                }
+            ],
+            "config": {
+                "top": 10
+            }
+        },
+        "FocusOn.GoodsRanking": {
+            "name": "商品排名",
+            "result": [
+                {
+                    "name": "瑞蓝玻尿酸",
+                    "number": 58,
+                    "amount": 72100
+                },
+                {
+                    "name": "脂肪精雕",
+                    "number": 18,
+                    "amount": 68200
+                },
+                {
+                    "name": "基础3次",
+                    "number": 25,
+                    "amount": 58010
+                },
+                {
+                    "name": "基础1次",
+                    "number": 49,
+                    "amount": 26900
+                },
+                {
+                    "name": "线雕-眼周",
+                    "number": 14,
+                    "amount": 21780
+                }
+            ],
+            "config": {
+                "top": 5
+            }
+        },
+        "FocusOn.AccountsRanking": {
+            "name": "咨询师排名",
+            "result": [
+                {
+                    "account_name": "张德峰",
+                    "invoice_count": 37,
+                    "closed_invoice_count": 18,
+                    "average_amount": 253392,
+                    "average_features": 4,
+                    "average_closed_features": 2
+                },
+                {
+                    "account_name": "顾锋杰",
+                    "invoice_count": 19,
+                    "closed_invoice_count": 12,
+                    "average_amount": 159921,
+                    "average_features": 3,
+                    "average_closed_features": 1
+                },
+                {
+                    "account_name": "彭广博",
+                    "invoice_count": 12,
+                    "closed_invoice_count": 8,
+                    "average_amount": 80991,
+                    "average_features": 5,
+                    "average_closed_features": 2
+                }
+            ],
+            "config": {
+                "top": 3
+            }
+        }
+    }
+}
